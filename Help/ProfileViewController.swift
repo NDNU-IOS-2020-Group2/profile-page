@@ -10,8 +10,10 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var firstnameLabel: UILabel!
     
+    @IBOutlet weak var lastnameLabel: UILabel!
+    @IBOutlet weak var genderLabel: UILabel!
     @IBOutlet weak var birthdayLabel: UILabel!
     
     @IBOutlet weak var usernameLabel: UILabel!
